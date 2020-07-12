@@ -1,0 +1,162 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+
+main{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px 0;
+}
+
+nav{
+    width: 100%;
+    padding: 10px 0px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+nav a{
+    font-size: small;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+}
+
+.l-nav {
+    margin: 0 0 0 50px;
+    position: absolute;
+    left: 0;
+}
+
+.l-nav a{
+    padding-right: 20px;
+}
+
+.r-nav{
+    margin: 0 50px 0 0;
+    position: absolute;
+    right: 0;
+}
+
+.r-nav .apps-icon{
+    margin: 0 20px 0 0;
+    position: relative;
+    top: 8px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.r-nav .apps-icon:hover{
+    color: black;
+}
+
+.r-nav a{
+    padding-left: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+.r-nav .login{
+    padding: 8px 30px;
+    color: white;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(0deg,#4387fd,#4683ea);
+    cursor: default;
+}
+
+.r-nav .login:hover{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+
+header{
+
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.gLogo{
+    width: 300px;
+}
+
+.search-bar{
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    width: 35%;
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: auto auto 20px auto;
+}
+
+.search-bar:hover{
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.s-icon{
+    position: absolute;
+    left: 8px;  
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#s-bar{
+    position: relative;
+    font-size: 15px;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 80%;
+    border: 0;
+    background: transparent;
+}
+
+#s-bar:focus{
+    outline: transparent;
+}
+
+.mic-icon{
+    color: blue;
+}
+
+.mic-btn{
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    right: 6px;
+}
+
+.btn-search{
+    font-size: small;
+    margin: 30px 0 0 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn-search:hover{
+    background: linear-gradient(0deg, rgba(236,236,236,1) 0%, #f5f5f5 100%);
+    border: 1px solid rgb(195, 195, 195);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 1);
+}
