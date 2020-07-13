@@ -4,7 +4,7 @@ Very simple clone of the Google Home Page.
 
 ### WEBSITE
 
-* [Website]() - Google Home Page
+* [Website](https://covicale.github.io/GoogleHomePage/) - Google Home Page
 
 ### WHY?
 
